@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Merriweather:wght@300&family=Roboto:wght@300&display=swap');
+
+html,
+body {
+    background-color: rgba(0, 0, 0, 0.493);
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    /* font-family: 'Roboto' sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.text-center:hover {
+    color: yellow;
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+
+.button {
+    background-color: rgba(25, 213, 213, 0.705);
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(167, 138, 195, 0.6);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.button:active {
+    background-color: whitesmoke
+    (10, 155, 239, 0.728);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    background-color: rgba(90, 214, 214, 0.705);
+    width: 235px;
+    font-size: 19px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.row input:hover {
+    background-color: rgba(128, 10, 239, 0.6);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.Cal{
+    border: 2px solid black;
+    border-radius: 11px;
+    padding-left: 12px ;
+    padding-right: 11px ;
+    padding-top: 22px ;
+    padding-bottom: 12px ;
+    background: rgb(13, 37, 61);
+}
